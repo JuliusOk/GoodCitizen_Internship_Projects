@@ -1,0 +1,19 @@
+body{
+	background-color: #E8F8F5;
+}
+#dashboard{
+	background-color: #4D5656;
+	height: 500px;
+	width: 200px;
+	/*padding-right: 100px;*/
+	color: white;
+}
+
+.active{
+	background-color: blue !important;
+	color: blue !important;
+}
+
+#dashboard ul li a{
+	color: white;
+}
