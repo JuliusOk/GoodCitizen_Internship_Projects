@@ -76,6 +76,8 @@
 # echo "Array in sorted order :"
 # echo ${arr[*]} 
 
+echo "*****Sorting algorithm*******"
+
 echo "Enter the order of sorting, 1 for ascending and 2 for decending"
 read test
 
