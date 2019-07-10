@@ -76,36 +76,79 @@
 # echo "Array in sorted order :"
 # echo ${arr[*]} 
 
+echo "Enter the order of sorting, 1 for ascending and 2 for decending"
+read test
 
-echo "enter maximum number of elements in the array"
-read n
-# taking input from user
-echo "enter  Numbers in array:"
-for (( i = 0; i < $n; i++ ))
-do
-read nos[$i]
-done
-#printing the number before sorting
-echo "  Numbers in an array are:"
-for (( i = 0; i < $n; i++ ))
-do
-echo ${nos[$i]}
-done
-# Now do the Sorting of numbers
-for (( i = 0; i < $n ; i++ ))
-do
-for (( j = $i; j < $n; j++ ))
-do
-if [ ${nos[$i]} -lt ${nos[$j]}  ]; then
-t=${nos[$i]}
-nos[$i]=${nos[$j]}
-nos[$j]=$t
+if [ $test -eq 1 ];
+then
+    echo "enter maximum number of elements in the array"
+    read n
+    # taking input from user
+    echo -n "enter  Numbers in array: "
+    for (( i = 0; i < $n; i++ ))
+    do
+    read nos[$i]
+    done
+    #printing the number before sorting
+    echo -n "  Numbers in an array are: "
+    for (( i = 0; i < $n; i++ ))
+    do
+    echo ${nos[$i]}
+    done
+    # Now do the Sorting of numbers
+    for (( i = 0; i < $n ; i++ ))
+    do
+    for (( j = $i; j < $n; j++ ))
+    do
+    if [ ${nos[$i]} -gt ${nos[$j]}  ]; then
+    t=${nos[$i]}
+    nos[$i]=${nos[$j]}
+    nos[$j]=$t
+    fi
+    done
+    done
+    # Printing the sorted number in descending order
+    echo -e "\nSorted Numbers "
+    for (( i=0; i < $n; i++ ))
+    do
+    echo ${nos[$i]}
+    done
+
+elif [ $test -eq 2 ];
+    then
+    echo "enter maximum number of elements in the array"
+    read n
+    # taking input from user
+    echo "enter  Numbers in array: "
+    for (( i = 0; i < $n; i++ ))
+    do
+    read nos[$i]
+    done
+    #printing the number before sorting
+    echo "  Numbers in an array are: "
+    for (( i = 0; i < $n; i++ ))
+    do
+    echo ${nos[$i]}
+    done
+    # Now do the Sorting of numbers
+    for (( i = 0; i < $n ; i++ ))
+    do
+    for (( j = $i; j < $n; j++ ))
+    do
+    if [ ${nos[$i]} -lt ${nos[$j]}  ]; then
+    t=${nos[$i]}
+    nos[$i]=${nos[$j]}
+    nos[$j]=$t
+    fi
+    done
+    done
+    # Printing the sorted number in descending order
+    echo -e "\nSorted Numbers "
+    for (( i=0; i < $n; i++ ))
+    do
+    echo ${nos[$i]}
+    done
+
+else 
+    echo "wrong input"
 fi
-done
-done
-# Printing the sorted number in descending order
-echo -e "\nSorted Numbers "
-for (( i=0; i < $n; i++ ))
-do
-echo ${nos[$i]}
-done
