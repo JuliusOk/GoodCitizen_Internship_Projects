@@ -50,14 +50,9 @@ body{margin:0; padding:0; font-size:14px; line-height:1.4em;}
 
 .menu a {
 	transition:all linear 0.15s;
-	color:#919191;
 	text-decoration: none;
 }
 
-/*.menu li:hover > a, .menu .current-item > a {
-	text-decoration:none;
-	color:#be5b70;
-}*/
 .current-item {
 	background-color:#b30000;
 	color: white;
@@ -96,7 +91,6 @@ body{margin:0; padding:0; font-size:14px; line-height:1.4em;}
 
 .sub-menu {
 	width:200%;
-	/*padding:5px 5px;*/
 	position:absolute;
 	top:100%;
 	left:0px;
@@ -133,7 +127,6 @@ body{margin:0; padding:0; font-size:14px; line-height:1.4em;}
 
 .sub-menu1 {
 	width:200%;
-	/*padding:5px 5px;*/
 	position:absolute;
 	top:100%;
 	left:0px;
@@ -241,10 +234,7 @@ body{margin:0; padding:0; font-size:14px; line-height:1.4em;}
 	padding-left: 150px;
 	padding-top: 50px;
 }
-/*.name{
-	padding-right: 100px;
-	float: left;
-}*/
+
 .mail{
 	padding-right: 100px;
 	float: left;
@@ -380,10 +370,7 @@ body{margin:0; padding:0; font-size:14px; line-height:1.4em;}
 	padding-right: 100px;
 	float: left;
 }
-/*.mail{
-	padding-right: 100px;
-	float: left;
-}*/
+
 #name1{
 	padding: 10px 30px;
 }
@@ -420,9 +407,14 @@ body{margin:0; padding:0; font-size:14px; line-height:1.4em;}
 .sdb_holder h2{
 	margin-bottom: 20px;
 }
+.sdb_holder .more{
+	margin-top: 20px;
 }
-.sdb_holder ul{
-	padding-left: 100px;
+
+.sdb_holder ul {
+	padding-left: 30px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 
 .headline .inner_p{
@@ -439,9 +431,7 @@ body{margin:0; padding:0; font-size:14px; line-height:1.4em;}
 }
 .table{
 	margin-left: 150px;
-	/*margin-top: 10px;*/
-	margin-right: 100px;/*
-	border:1px solid grey;*/
+	margin-right: 100px;
 
 }
 .table th{
@@ -463,7 +453,6 @@ body{margin:0; padding:0; font-size:14px; line-height:1.4em;}
 	padding-left: 150px;
 }
 .comments{
-	/*margin-left: 150px;*/
 	margin-top: 20px;
 }
 #paragrapgh{
@@ -483,8 +472,7 @@ body{margin:0; padding:0; font-size:14px; line-height:1.4em;}
 	margin: 10px;
 }
 .row2{
-	/*float: left;*/
-	margin-left: 100px;
+	padding-left: 300px;
 }
 
 .row1{
@@ -513,13 +501,20 @@ body{margin:0; padding:0; font-size:14px; line-height:1.4em;}
 }
 
 
-.left-col a{
+.left-col li{
+	margin-bottom: 10px;
+}
+.left-col li a{
 	text-decoration: none;
+	margin-bottom: 10px;
 }
 
-
-
-
+.inner_a{
+	padding-left: 20px;
+}
+.inner_aa{
+	padding-left: 40px;
+}
 
 .order {
 	display:block; 
