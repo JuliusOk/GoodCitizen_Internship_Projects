@@ -161,6 +161,15 @@ body{margin:0; padding:0; font-size:14px; line-height:1.4em;}
 	background:#b30000; color: white;
 }
 
+.gallery h1{
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.gallery h3{
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
 /*editting starter*/
 .starter{
 	color:#FFFFFF; 
@@ -232,10 +241,10 @@ body{margin:0; padding:0; font-size:14px; line-height:1.4em;}
 	padding-left: 150px;
 	padding-top: 50px;
 }
-.name{
+/*.name{
 	padding-right: 100px;
 	float: left;
-}
+}*/
 .mail{
 	padding-right: 100px;
 	float: left;
@@ -343,6 +352,7 @@ body{margin:0; padding:0; font-size:14px; line-height:1.4em;}
 	height: 120px;
 	background-color: #660033;
 	margin-top: 70px;
+	margin-bottom: 100px;
 }
 .in_line p{
 	padding-left: 170px;
@@ -360,14 +370,20 @@ body{margin:0; padding:0; font-size:14px; line-height:1.4em;}
 	padding-top: 50px;
 	margin-bottom: 100px;
 }
+
+.form2{
+	margin-left: 150px;
+	padding-top: 50px;
+	margin-bottom: 100px;
+}
 .name{
 	padding-right: 100px;
 	float: left;
 }
-.mail{
+/*.mail{
 	padding-right: 100px;
 	float: left;
-}
+}*/
 #name1{
 	padding: 10px 30px;
 }
@@ -395,6 +411,20 @@ body{margin:0; padding:0; font-size:14px; line-height:1.4em;}
 
 }
 
+.headline p{
+	margin-top: 20px;
+}
+.sdb_holder{
+	margin-top: 50px;
+}
+.sdb_holder h2{
+	margin-bottom: 20px;
+}
+}
+.sdb_holder ul{
+	padding-left: 100px;
+}
+
 .headline .inner_p{
 	padding-left: 160px;
 	margin-top: -150px;
@@ -410,14 +440,14 @@ body{margin:0; padding:0; font-size:14px; line-height:1.4em;}
 .table{
 	margin-left: 150px;
 	/*margin-top: 10px;*/
-	margin-right: 100px;
-	border:1px solid grey;
+	margin-right: 100px;/*
+	border:1px solid grey;*/
 
 }
 .table th{
 	background-color: black;
 	color: white;
-	width: 300px;
+	width: 200px;
 	height: 30px;
 }
 .table th{
@@ -429,33 +459,21 @@ body{margin:0; padding:0; font-size:14px; line-height:1.4em;}
 	float: left;
 	padding-left: 500px;
 }
-.comments p{
-	margin: 0;
-	padding: 0;
+.comments h2{
+	padding-left: 150px;
 }
 .comments{
-	margin-left: 150px;
+	/*margin-left: 150px;*/
 	margin-top: 20px;
 }
 #paragrapgh{
 	margin-top: 10px;
 	margin-left: 150px;
 	margin-right:100px;
-	background-color: gray;
+	height: 100px;
+	background-color: #FFF5EE;
 }
-#paragrapgh1{
-	margin-top: 10px;
-	margin-left: 150px;
-	margin-right:100px;
-	background-color: gray;
-}
-#paragrapgh2{
-	margin-top: 10px;
-	margin-left: 150px;
-	margin-right:100px;
-	background-color: gray;
-	margin-bottom: 100px;
-}
+
 .gallery{
 	padding-left: 180px;
 	padding-top: 50px;
@@ -466,14 +484,27 @@ body{margin:0; padding:0; font-size:14px; line-height:1.4em;}
 }
 .row2{
 	/*float: left;*/
-	margin-left: 250px;
+	margin-left: 100px;
 }
 
 .row1{
-	/*float: left;*/
-	margin-top: -970px;
+	float: left;
 	margin-left: 150px;
+	width:250px;
+
+}
+
+.row4{
+	margin-right: 300px;
+
+
+}
+
+.row5{
+	float: right;
+	margin-top: -1400px;
 	width: 250px;
+	margin-right: 100px;
 
 }
 
@@ -482,203 +513,9 @@ body{margin:0; padding:0; font-size:14px; line-height:1.4em;}
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.left-col a{
+	text-decoration: none;
+}
 
 
 
